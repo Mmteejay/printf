@@ -33,7 +33,7 @@ char *convert_base_pointer(unsigned long p);
  * @f: pointer to func
  */
 
-typedef struct flags_printf{
+typedef struct flags_printf
 {
 	char *c;
 	int (*f)(va_list);
